@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 16851b162004b944ab2c93397c77d4bf, type: 3}
+  m_Name: NumberRoom
+  m_EditorClassIdentifier: 
+  disabled: 1
+  category: 1
+  hasDoorNorth: 1
+  hasDoorSouth: 1
+  hasDoorEast: 1
+  hasDoorWest: 1
+  disableDoorNorth: 0
+  disableDoorSouth: 0
+  disableDoorEast: 0
+  disableDoorWest: 0
+  ignoreRotationAccordingToEntry: 0
+  rotation: {x: 0, y: 0, z: 0}
+  floor: {fileID: 1215209838912696, guid: 58aa82c9fe4400540ad045ed2e8e99c7, type: 2}
+  walls: []
+  interior: {fileID: 1989041809457364, guid: 8ee12cd002a88564081ab5895472ae65, type: 2}

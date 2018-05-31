@@ -1,0 +1,22 @@
+fileFormatVersion: 2
+guid: 51ac2423657a60846b3c2336ab28a5a6
+timeCreated: 1488881045
+licenseType: Pro
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: ChessType
+  fontNames:
+  - ChessType
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: aa7d92546c01bac4f99e6e95fb33b5c3, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

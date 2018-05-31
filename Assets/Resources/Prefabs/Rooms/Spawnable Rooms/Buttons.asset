@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 16851b162004b944ab2c93397c77d4bf, type: 3}
+  m_Name: Buttons
+  m_EditorClassIdentifier: 
+  disabled: 0
+  category: 3
+  hasDoorNorth: 1
+  hasDoorSouth: 1
+  hasDoorEast: 1
+  hasDoorWest: 1
+  disableDoorNorth: 0
+  disableDoorSouth: 0
+  disableDoorEast: 0
+  disableDoorWest: 0
+  ignoreRotationAccordingToEntry: 0
+  rotation: {x: 0, y: 0, z: 0}
+  floor: {fileID: 1057144704166404, guid: fec17c9df89087f489e63b513e5e97ed, type: 2}
+  walls:
+  - {fileID: 1439139587954186, guid: b6998ae83f158b34290fe060a19f095b, type: 2}
+  interior: {fileID: 1701259300551224, guid: 8cc105ba6e7e295468f004e6eb821363, type: 2}

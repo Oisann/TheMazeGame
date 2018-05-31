@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 073cafdf37857ef41becce5cda01dcdd
+timeCreated: 1490878204
+licenseType: Pro
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences:
+  - currentRoom: {instanceID: 0}
+  - fireWorks: {fileID: 1608354440952354, guid: f2c47d9ca0c39e54ba519d26a4b9cc3e,
+      type: 2}
+  - mapRoom: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

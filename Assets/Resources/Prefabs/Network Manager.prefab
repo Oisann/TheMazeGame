@@ -1,0 +1,187 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1555065592026138}
+  m_IsPrefabParent: 1
+--- !u!1 &1555065592026138
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4202913229272438}
+  - component: {fileID: 114844763017463094}
+  - component: {fileID: 114579057520687118}
+  - component: {fileID: 114627514539595224}
+  m_Layer: 0
+  m_Name: Network Manager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4202913229272438
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1555065592026138}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114579057520687118
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1555065592026138}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 227461547, guid: dc443db3e92b4983b9738c1131f555cb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  manager: {fileID: 0}
+  showGUI: 1
+  offsetX: 0
+  offsetY: 0
+--- !u!114 &114627514539595224
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1555065592026138}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9cc52e1a4ff51e64e86617aaf9248b11, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &114844763017463094
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1555065592026138}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -822479833, guid: dc443db3e92b4983b9738c1131f555cb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_NetworkPort: 7777
+  m_ServerBindToIP: 0
+  m_ServerBindAddress: 
+  m_NetworkAddress: localhost
+  m_DontDestroyOnLoad: 1
+  m_RunInBackground: 1
+  m_ScriptCRCCheck: 1
+  m_MaxDelay: 0.01
+  m_LogLevel: 2
+  m_PlayerPrefab: {fileID: 1561191909660202, guid: b0a6142d0ab107e41963f6c491ac744c,
+    type: 2}
+  m_AutoCreatePlayer: 1
+  m_PlayerSpawnMethod: 1
+  m_OfflineScene: 
+  m_OnlineScene: 
+  m_SpawnPrefabs:
+  - {fileID: 1537553724939018, guid: 49649dbd267a5e242a27c24d5101a9ee, type: 2}
+  - {fileID: 1122808199492600, guid: 9f9f7007cd7eba840b134fdff857070f, type: 2}
+  - {fileID: 1434907182670418, guid: 99310ac24ee86fa4e8b07ef0823a0251, type: 2}
+  - {fileID: 1039132319527810, guid: 655da3507d8653e4da39ad68394051c8, type: 2}
+  - {fileID: 1268601700677728, guid: c9f99d6aaaae493479cc938b229df145, type: 2}
+  - {fileID: 1799569396209238, guid: 7c930c09c11946e469a28e5dcd041a7e, type: 2}
+  - {fileID: 1775710728668084, guid: 20efeeac003dad1499275a4c9b8ffa3a, type: 2}
+  - {fileID: 1243236582661172, guid: f57d7dd9ff8e8b443b98f5cb5dc76c02, type: 2}
+  - {fileID: 1626321801526200, guid: 788cf6180991f4447bd48ecf242471ad, type: 2}
+  - {fileID: 1811591231859974, guid: 17a9493e6ba01be4b862ca6a899aee03, type: 2}
+  - {fileID: 1676629372500868, guid: e54698f032f0336409cadf2f36ab9f19, type: 2}
+  - {fileID: 1031444420531432, guid: 9473c79bf6415494aadcb4a7e86b1af2, type: 2}
+  - {fileID: 1783662776058346, guid: bcc0287e06b8a4f4ebb4b93cc38cf788, type: 2}
+  - {fileID: 1198343501640556, guid: c5bec891e86b494479e2a3e39af90dec, type: 2}
+  - {fileID: 1384376863535282, guid: 76c0ec24be242904e8efbcb75a66b372, type: 2}
+  - {fileID: 1376750236506904, guid: 19bb8c42c784d8f429c2daa9e5006b5e, type: 2}
+  - {fileID: 1401124252769710, guid: 0afd1eaeb549f2a45895519eed539c04, type: 2}
+  - {fileID: 1582188830300228, guid: 8a6bd529d9b495b4280c20c80529e793, type: 2}
+  - {fileID: 1090153477113762, guid: 3d0cf7876598e5e4b87d5e2d76c59c33, type: 2}
+  - {fileID: 1322576356842398, guid: 6d77bc145e29b6f459ec893652adbaf0, type: 2}
+  - {fileID: 1495124934395604, guid: 19f979761cf11b84589c6d256bac621e, type: 2}
+  - {fileID: 1151793335493986, guid: 6902f417f4b52344ba76baa01a593027, type: 2}
+  - {fileID: 1883330656332690, guid: aa1c00b8d96dcbb47bc1e35034e1f3af, type: 2}
+  - {fileID: 1509969301727346, guid: 6eecb2a16981d304abdf0ab39bcc80af, type: 2}
+  - {fileID: 1284713644795586, guid: 1c00d5a82dd397542a07adf0c0ba9c52, type: 2}
+  - {fileID: 1247559617184396, guid: ac7aebe4c3928264fb5ad3a3303d160c, type: 2}
+  - {fileID: 1127261084566472, guid: 83d96544331b901458165ae51f5e2844, type: 2}
+  - {fileID: 1813024187489428, guid: 45aac7691f827f648a900e05a64f7fb3, type: 2}
+  - {fileID: 1899992113966166, guid: 6617e524ac233ac4f90acd2ceff317f4, type: 2}
+  - {fileID: 1621870606895868, guid: a627801d26922764f91333d51c1f9059, type: 2}
+  - {fileID: 1608354440952354, guid: f2c47d9ca0c39e54ba519d26a4b9cc3e, type: 2}
+  - {fileID: 1083073487363922, guid: b7b8c28d0acb99d44af9ebe32df722ea, type: 2}
+  - {fileID: 1717345044006966, guid: 5a3f20e2fec3b3d4baeb9b3c7a224971, type: 2}
+  - {fileID: 1854907813779128, guid: 736ff94a023fbcc4ba8a72ddf0caa9f1, type: 2}
+  - {fileID: 1775710728668084, guid: 8fb3be60cb71d4b45928b458367922e1, type: 2}
+  m_CustomConfig: 1
+  m_MaxConnections: 3
+  m_ConnectionConfig:
+    m_PacketSize: 1500
+    m_FragmentSize: 500
+    m_ResendTimeout: 1200
+    m_DisconnectTimeout: 2000
+    m_ConnectTimeout: 2000
+    m_MinUpdateTimeout: 10
+    m_PingTimeout: 500
+    m_ReducedPingTimeout: 100
+    m_AllCostTimeout: 20
+    m_NetworkDropThreshold: 5
+    m_OverflowDropThreshold: 5
+    m_MaxConnectionAttempt: 10
+    m_AckDelay: 33
+    m_SendDelay: 10
+    m_MaxCombinedReliableMessageSize: 100
+    m_MaxCombinedReliableMessageCount: 10
+    m_MaxSentMessageQueueSize: 128
+    m_AcksType: 1
+    m_UsePlatformSpecificProtocols: 0
+    m_InitialBandwidth: 0
+    m_BandwidthPeakFactor: 2
+    m_WebSocketReceiveBufferMaxSize: 0
+    m_UdpSocketReceiveBufferMaxSize: 0
+    m_SSLCertFilePath: 
+    m_SSLPrivateKeyFilePath: 
+    m_SSLCAFilePath: 
+    m_Channels: []
+  m_GlobalConfig:
+    m_ThreadAwakeTimeout: 1
+    m_ReactorModel: 0
+    m_ReactorMaximumReceivedMessages: 1024
+    m_ReactorMaximumSentMessages: 1024
+    m_MaxPacketSize: 2000
+    m_MaxHosts: 16
+    m_ThreadPoolSize: 1
+    m_MinTimerTimeout: 1
+    m_MaxTimerTimeout: 12000
+    m_MinNetSimulatorTimeout: 1
+    m_MaxNetSimulatorTimeout: 12000
+  m_Channels: 0500000000000000
+  m_UseWebSockets: 0
+  m_UseSimulator: 0
+  m_SimulatedLatency: 1
+  m_PacketLossPercentage: 0
+  m_MaxBufferedPackets: 16
+  m_AllowFragmentation: 1
+  m_MatchHost: mm.unet.unity3d.com
+  m_MatchPort: 443
+  matchName: default
+  matchSize: 4
+  isNetworkActive: 0
+  matchMaker: {fileID: 0}
